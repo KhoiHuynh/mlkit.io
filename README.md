@@ -1,26 +1,5 @@
-ML Kit for Firebase Quickstart
-==============================
+ML Kit Concept
 
-The ML Kit for Firebase Android Quickstart app demonstrates how to use the
-various features of ML Kit to add machine learning to your application.
-
-**NOTE:** A sample application using the same library, but with a more
-sophisticated UI (it uses [Jetpack
-Libraries](https://developer.android.com/jetpack) and follows the [Material
-Design guidelines for ML](https://material.io/collections/machine-learning/)),
-can be found [here](https://github.com/firebase/mlkit-material-android). This
-may be helpful when integrating ML Kit into real-world applications.
-
-Introduction
-------------
-
-- [Read more about ML Kit for Firebase](https://firebase.google.com/docs/ml-kit/)
-
-Getting Started
----------------
-
-- [Add Firebase to your Android Project](https://firebase.google.com/docs/android/setup).
-- Run the sample on an Android device.
 - Choose LivePreviewActivity to see a demo of the following APIs:
   - Face detection
   - Text recognition (on-device)
@@ -36,29 +15,6 @@ Getting Started
   - Landmark recognition (Cloud)
   - Text recognition (Cloud)
   - Document text recognition (Cloud)
-
-Result
------------
-<img src="app/src/screen.png" height="534" width="300"/>
-
-Hosting a Custom Model
------------
-- [Download](http://download.tensorflow.org/models/mobilenet_v1_2018_02_22/mobilenet_v1_1.0_224_quant.tgz)
-  the TensorFlow Lite custom model we are using in this sample.
-- Go to the Firebase console.
-- Select your project.
-- Select ML Kit under the DEVELOP section in the left hand navigation.
-- Click on the CUSTOM tab.
-- Click on Add another model and use "mobilenet_v1" as the name.
-- Click BROWSE and upload the mobilenet_v1_1.0_224_quant.tflite file you
-  downloaded earlier.
-- Click PUBLISH.
-
-Support
--------
-
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/firebase-mlkit)
-- [Firebase Support](https://firebase.google.com/support/).
 
 License
 -------
